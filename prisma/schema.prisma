@@ -13,6 +13,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Cliente {
+  id        Int    @id @default(autoincrement())
+  nombres   String
+  email     String @unique
+  direccion String
+  fono      String
+}
+
 model Person {
   nPerCode       String   @id @default(uuid()) @db.Uuid
   cPerLastname   String   @db.VarChar(50)
