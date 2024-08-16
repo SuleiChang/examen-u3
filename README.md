@@ -1,4 +1,4 @@
-# Examen Final - Aplicación de Gestión
+# Examen U3 - Gestión de Clientes
 
 ## Descripción
 Desarrollo de una aplicación web utilizando Next.js, con énfasis en la gestión de clientes y navegación entre diferentes secciones.
